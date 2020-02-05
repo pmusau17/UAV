@@ -6,12 +6,12 @@ Code For NSF CPS Challenge
 Clone this repository. The Dockerfile assumes you have a cuda enabled GPU with cuda 10.0. If you have another version of cuda, select the appropriate docker image to pull from [here](https://hub.docker.com/r/nvidia/cudagl)
 
 ``` $ cd UAV 
-    $ mkdir src
-    $ cd src
-    $ git clone https://github.com/PX4/Firmware.git
-    $ cd ..
-    $ chmod u+x run_docker.sh
-    $./run_docker.sh
+$ mkdir src
+$ cd src
+$ git clone https://github.com/PX4/Firmware.git
+$ cd ..
+$ chmod u+x run_docker.sh
+$./run_docker.sh
 ```
 Once inside the container. Run the following: 
 
