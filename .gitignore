@@ -1,2 +1,9 @@
 #ignore the src folder
-src/
+src/Firmware
+
+#ignore build and devel folders
+devel/
+build/
+
+#ignore the /.catkin_workspace
+.catkin_workspace
