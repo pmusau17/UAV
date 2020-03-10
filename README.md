@@ -61,7 +61,7 @@ $ source devel/setup.bash
 $ rosrun UAV offboard_node 
 ```
 
-Wait a few seconds (I was inpatient at first, don't be like me).
+Wait a few seconds (I was impatient at first, don't be like me).
 
 
 
