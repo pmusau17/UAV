@@ -67,5 +67,4 @@ Wait a few seconds (I was inpatient at first, don't be like me).
 
 ./run_docker.sh
 
-```
 
