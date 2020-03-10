@@ -1,5 +1,5 @@
 #! /bin/bash
-xhost +local:docker
+#xhost +local:docker
 
 #run the docker container
 docker run -it --rm --runtime=nvidia --privileged --env="QT_X11_NO_MITSHM=1" \
