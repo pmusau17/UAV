@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<launch>
+  
+  <!-- Launch mavros on the correct udp port-->
+  <include file="$(find mavros)/launch/px4.launch">
+      <arg name="fcu_url" value="udp://:14540@127.0.0.1:14557"/>
+    </include>
+
+  <!--launch the offboard node-->
+  <node pkg="UAV" name="flying_high" type="offb_node" output="screen"/>
+  
+</launch>

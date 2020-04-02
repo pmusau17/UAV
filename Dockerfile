@@ -180,3 +180,5 @@ RUN pip3 install pymavlink \
 	&& rm -rf /var/lib/apt/lists/{apt,dpkg,cache,log} /tmp/* /var/tmp/*
 
 RUN rosdep init && rosdep update
+
+#ENTRYPOINT /bin/bash -c "source /opt/ros/kinetic/setup.bash"
